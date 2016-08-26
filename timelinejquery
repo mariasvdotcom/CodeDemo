@@ -1,0 +1,108 @@
+
+//from: http://chicanapormiraza.org/timelines
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".clickable1").click(function(){
+             $(this).addClass("show1light");
+    }); 
+ $(".clickable2").click(function(){
+             $(this).addClass("show2light");
+    }); 
+ $(".clickable3").click(function(){
+             $(this).addClass("show3light");
+    }); 
+ $(".clickable4").click(function(){
+             $(this).addClass("show4light");
+    }); 
+ $(".clickable5").click(function(){
+             $(this).addClass("show5light");
+    }); 
+    $(".hideclickable1").click(function(){
+             $(".clickable1").removeClass("show1light");
+    }); 
+  $(".hideclickable2").click(function(){
+             $(".clickable2").removeClass("show2light");
+    });
+  $(".hideclickable3").click(function(){
+             $(".clickable3").removeClass("show3light");
+    });    
+  $(".hideclickable4").click(function(){
+             $(".clickable4").removeClass("show4light");
+    });    
+  $(".hideclickable5").click(function(){
+             $(".clickable5").removeClass("show5light");
+    });        
+ $("#hide1").click(function(){
+        $("#timelinethefirst").hide();
+    });
+    $("#show1").click(function(){
+        $("#timelinethefirst").show();
+    });
+    $("#hide2").click(function(){
+        $("#timelinethesecond").hide();
+    });
+    $("#show2").click(function(){
+        $("#timelinethesecond").show();
+    });
+    $("#hide3").click(function(){
+        $("#timelinethethird").hide();
+    });
+    $("#show3").click(function(){
+        $("#timelinethethird").show();
+    })
+$("#hide4").click(function(){
+        $("#timelinethefourth").hide();
+    });
+    $("#show4").click(function(){
+        $("#timelinethefourth").show();
+    })
+$("#hide5").click(function(){
+        $("#timelinethefifth").hide();
+    });
+    $("#show5").click(function(){
+        $("#timelinethefifth").show();
+    })
+});
+</script>
+</head>
+<body>
+
+<div id="timelinestext">
+<p>Through the painstaking work of Dr.Maria Cotera, Linda Garcia Merchant, and the contributions of dozens of graduate and undergraduate students, we can begin situating Chicana Activism within a broader understanding of other kinds of civil rights activism. Each timeline reflects major events within an important faction of Civil Rights praxis - be that the more well-known Chicano rights movements, the second wave feminist movement, or a timeline of the Raza Unida Party's work. We add to these more well-known histories, our own timeline of Chicana Feminist activism.</p></div>
+<p>&nbsp;</p>
+<p> Click each button to turn on that timeline. Timelines can be collapsed using the hide button next to each timeline's title.<p>
+<!--button sets-->
+<button id="show1" class="btn clickable1">All Events Timeline</button>
+<button id="show4" class="btn clickable2">Chicana Feminism</button>
+<button id="show2" class="btn clickable3">Second Wave Feminism</button>
+<button id="show3" class="btn clickable4">Raza Unida</button>
+<button id="show5" class="btn clickable5">Chicano Studies </button><p>
+
+<!--start of iframe madness -->
+<p><p><p>
+<div id="timelinethefirst">
+<h3>Timeline of Events for All Movements</h3> <button id="hide1" class="hideclickable1"><i>Hide</i></button> 
+<p><iframe align="middle" frameborder="0" height="650" scrolling="no" src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1w729IlMvrAXTueBNibctVEnC7L7a436_0d1o_0jRS7Q&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" width="80%"></iframe></p>
+</div>
+
+<div id="timelinethefourth">
+<h3>Chicana Feminism Timeline </h3> <button id="hide4" class="hideclickable2"><i>Hide</i></button>
+<p><iframe align="middle" frameborder="0" height="650" scrolling="no" src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1T4S4j79Y_C1BeNePrQwbYswI4Odxa8hiBXRdFP9zRfI&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" width="80%"></iframe></p>
+</div>
+
+<div id="timelinethesecond">
+<h3>Second Wave Feminism</h3> <button id="hide2" class="hideclickable3"><i>Hide</i></button>
+<p><iframe align="middle" frameborder="0" height="650" scrolling="no" src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1fQWDzCHaNYyC2g8ZSP2jhp1Zi-E6ohDnrm34BvHbTYE&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" width="80%"></iframe></p>
+</div>
+
+<div id="timelinethethird">
+<h3>Raza Unida</h3> <button id="hide3" class="hideclickable4"><i>Hide</i></button>
+<p><iframe align="middle" frameborder="0" height="650" scrolling="no" src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1ohSUTDCFqK6kNrbxu4IhClkVd7ylgVMQHuHmOEeGXzo&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" width="80%"></iframe></p>
+</div>
+
+<div id="timelinethefifth">
+<h3>Chicano Student Movement</h3> <button id="hide5" class="hideclickable5"><i>Hide</i></button>
+<p><iframe align="middle" frameborder="0" height="650" scrolling="no" src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1kJfRRCaW5jPyvXU-ZwFhMPNdjliT9c_43XaQNB559IQ&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" width="80%"></iframe></p>
+</div>
