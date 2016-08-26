@@ -1,0 +1,796 @@
+#navbar{
+    max-width: inherit;
+    width: 101%;
+    height:100%;
+
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+.container {
+    padding-left: 100px;
+}
+
+
+
+#navbar a{
+    font-size: 16px;
+   
+}
+
+.navbar-nav{
+    position: static;
+    margin-left: 50px;
+    margin-top:  10px;
+   /* padding-left: 200px;*/
+  
+}
+
+.leaf, .first, .last  {
+    float: left !important;
+}
+
+
+ a.logo.navbar-btn.pull-left{ 
+    margin-left: 50px;
+  } 
+
+
+
+.region-megasliderspot{
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+.region-headerspace{
+    background-color: white;
+    height: 100px;
+}
+
+@media screen and (max-width: 800px){
+    .region-headerspace{
+        display: none;
+    }
+} 
+
+
+.footer{
+    /*background-color: black;*/
+    height: 100%;
+    width: 101%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 1px;
+}
+
+.copyrightdiv{
+    color: white;
+    font-size: 10px;
+}
+
+.main-container{
+    width:80%;
+    padding-left: 20px;
+}
+
+
+
+/*
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+ul.nav li.dropdown ul.dropdown-menu {
+  margin-top: 0;
+}*/
+
+
+.events_block{
+    padding-bottom: 12px;
+}
+
+
+
+
+
+/* new additions */ 
+.headimage {
+    padding-top: 30px;
+    padding-left: 125px;
+}
+
+.mrsv-viewsbody{
+    padding-bottom: 45px;
+}
+
+.views-field-field-new-date{
+    display: span;
+}
+
+.financetiles{
+    float: left;
+    padding-left: 40px;
+    position: relative;
+}
+
+.footer{
+    background-color: #eee;
+}
+
+.aboutimage{
+    float: right;
+    padding: 5px;
+}
+
+/* first ultrawide title for front page */
+.ultrawide1{
+    background-color: purple;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left:100px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+/* first ultrawide title for events page */
+
+#block-block-11{
+    background-color: purple;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left:100px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+/* first ultrawide title for funding page */
+
+#block-block-15{
+    background-color: purple;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left:100px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+
+/* second ultrawide title for front page */
+.ultrawide2{
+    background-color: #eee;
+    height: 200px;
+    color: purple;
+    font-size: 18px;
+    padding-left:100px;
+    margin-top: -10px;
+    padding-top: 50px;
+  
+}
+
+/* second ultrawide title for events page */
+
+#block-block-12{
+  background-color: #eee;
+    height: 200px;
+    color: purple;
+    font-size: 18px;
+    padding-left:100px;
+    margin-top: -10px;
+    padding-top: 50px;
+  
+}
+
+/* second ultrawide title for funding page */
+
+#block-block-16{
+  background-color: #eee;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    color: purple;
+    font-size: 18px;
+    padding-left:100px;
+    margin-top: -10px;
+    padding-top: 50px;
+  
+}
+
+/* third ultrawide title for front page */
+
+.ultrawide3{
+       background-color: teal;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left:200px;
+    padding-top: 10px;
+    margin-top: -20px;
+    width: 100%;
+  
+}
+
+/* third ultrawide title for events page */
+
+#block-block-13, #block-block-21{
+    background-color: teal;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin-top: 0px;
+    width: 100%;
+  
+}
+
+/* fourth ultrawide title front page */
+
+.ultrawide4{
+   background-color: #eee;
+    height: 200px;
+    color: purple;
+    font-size: 18px;
+    padding-left:100px;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: -1px;
+    margin-bottom: -1px;
+}
+
+
+/* fourth ultrawide title events page */
+
+#block-block-14, #block-block-20{
+   background-color: #eee;
+    height: 100%;
+    color: purple;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: -1px;
+    margin-bottom: -1px;
+}
+
+
+/* fifth ultrawide title front page */
+
+.ultrawide5{
+       background-color: #333333;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left:300px;
+    padding-top: 10px;
+    margin-top: -20px;
+  
+}
+
+
+/* six ultrawide title front page */
+.ultrawide6{
+   background-color: #eee;
+    height: 200px;
+    color: purple;
+    font-size: 18px;
+    padding-left:100px;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: -1px;
+    margin-bottom: -1px;
+    padding-bottom: 0px;
+}
+
+
+
+.footup{
+    margin-top: 0 px !important;
+    background-color: #333333;
+}
+
+/*.footer {
+    margin-top: 5px !important;
+}
+/*
+.form-item{
+    font-size: 45px !important;
+    font-style: bold;
+}
+
+.description{
+    font-size: 16px;
+}*/
+
+.block-webform{
+  margin-top: 40px;
+  margin-bottom: 65px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.peopletitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.peoplejobtitle{
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.peopleemail{
+    font-style: italic;
+}
+
+.col-1, .col-2, .col-3{
+    padding-right:75px;
+    
+}
+
+.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items, .field-type-taxonomy-term-reference .field-item {
+display:inline;
+float:left;
+
+padding-right:10px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+ul.nav li.dropdown ul.dropdown-menu {
+  margin-top: 0;
+}
+
+#ablock-block-10{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+label[for=edit-submitted-project-title]{
+ font-size: 15px !important;
+ font-weight: bold; 
+}
+
+label[for=edit-submitted-lead-applicants-name]{
+ font-size: 15px !important;
+ font-weight: bold; 
+}
+
+label[for=edit-submitted-email-address]{
+ font-size: 15px !important;
+ font-weight: bold; 
+}
+
+label[for=edit-submitted-project-abstract]{
+ font-size: 15px !important;
+ font-weight: bold; 
+}
+
+label[for=edit-submitted-project-description-text-area]{
+ font-size: 15px !important;
+ font-weight: bold; 
+}
+
+/* control collapse toggle nav  */ 
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* toggle nav  */ 
+
+
+@media screen and (max-width: 700px) {
+a.logo.navbar-btn.pull-left{ 
+    float: none;
+    margin-right:0;
+    width:auto;  
+    
+  }
+  
+  ul.menu.nav{
+	position: static !important;
+	display:inline-block !important;
+    /*
+    padding-left: 300px;
+    margin-top: -10px;
+    margin-bottom: -30px;*/
+}
+    
+}
+
+/* this is new */
+@media screen and (max-width: 460px) and (orientation: portrait) {
+   a.logo.navbar-btn.pull-left{ 
+    float: none;
+    width:auto;  
+  } 
+  
+  .grandcircusstyle{
+  padding-left: 0em;
+  }
+  
+}
+
+.form-item label{
+    font-weight:bold;
+    font-size: 15px !important;
+    padding-bottom: 15px;
+    padding-top: 14px;
+}
+
+.panel-title{
+    font-weight:bold;
+    font-size: 15px !important;
+    padding-bottom: 15px;
+    padding-top: 14px;
+}
+
+.webform-submit {
+    margin-top: 20px !important;
+}
+
+/*
+@media screen and (max-width: 800px) {
+    #largesimage{
+        visibility: hidden;
+    }*/
+
+@media screen and (min-width: 700px) {
+    #smallimage{
+        /*visibility: hidden;*/
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    #largeimage{
+        /*visibility: hidden;*/
+        display: none;
+    }
+
+    .fundingbody{
+        display: none;
+    }   
+}
+
+#block-views-clone-of-people-list-block{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+
+}
+
+.breadcrumb{
+    padding: 10px 5px 20px;
+}
+
+@media screen and (max-width: 700px){
+    .eventblockphoto, /*.views-field-body,*/ .eventtabletitle, .event-tablelabels, .event-tablesummary{
+        display: none;
+    }
+    .views-field-title{
+        font-size: 14px;
+    }
+
+    .research-summary-label, .reearch-summary-field{
+        display: none;
+    }
+
+    a.logo.navbar-btn.pull-left{
+    position: relative;
+    right: 100px;
+    }
+}
+
+@media screen (min-width:100px) and (max-width: 700px){
+
+    img.footerlogo{
+        position: relative;
+        right: 90px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        width:90%;
+       
+    }
+}
+
+/* medium size */
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+   .event-tablecontent{
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    .event-tablelabels{
+        font-size: 12px;
+    }
+    .event-tablesummary{
+        display:none;
+    }
+    .research-summarylabelandcontent{
+        display: none;
+    }
+
+    .research-summary-label{
+        font-size: 12px;
+    }
+
+    .reearch-summary-field{
+        font-size: 14px;
+    }
+
+     a.logo.navbar-btn.pull-left{
+        position: relative;
+        right: 100px;
+    }
+}
+
+@media screen and (min-width: 1100px){
+   /*views-field-title*/ .event-tablecontent{
+        font-size: 19px;
+    }
+    .event-tablelabels, .reearch-summary-label{
+        font-size: 15px;
+    }
+
+    .event-tablesummarytext, .reearch-summary-field{
+        font-size: 17px;
+    }
+}
+
+
+
+
+/* funding page*/
+.fundingpadding{
+    padding-bottom: 15px;
+}
+
+.col-first{
+    padding-top: 10px;
+}
+
+#view-filters{
+    padding-bottom: 105px;
+}
+
+
+/*front page ish*/
+
+.views-field-title-1{
+    padding-top: 15px;
+}
+.frontpageimages{
+    width:100%;
+}
+
+@media screen and (min-width: 1000px){
+    .frontpageview{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 35px;
+        background-color: #f5f5f5;
+        /*height: 330px;*/
+        border: 1px solid #e8e8e8;
+        border-radius: 0;
+}
+}
+
+.frontpageview{
+    font-size: 18px; 
+
+}
+
+@media screen and (max-width: 450px){
+.frontpageview{
+    font-size: 15px; 
+    padding: 20px;
+    }
+
+/*pull main logo in the header to the left on small screens*/
+a.logo.navbar-btn.pull-left{
+    position: relative;
+    right: 100px;
+    }
+
+img.headerimage{
+    width: 135%;
+    }
+
+
+img.footerlogo{
+    position: relative;
+    right: 90px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 120% !important;
+}
+
+#block-block-17{
+    width: 150%;
+    padding: 10px;
+}
+
+.mariabrand{
+    position: relative;
+    left: -100px;
+}
+
+.footercopyright{
+    position: relative;
+    left: -100px;
+
+}
+
+.icons{
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+.copyrightdiv{
+    position: relative;
+    left: -50px;
+    color: white;
+    font-size: 10px;
+}
+
+img.inlineimage{
+    /*padding-left:100px;*/
+    float: initial !important;
+    width: 90%;
+}
+}
+
+.more-link{
+    text-align: right;
+    /*margin-top: -20px;*/
+
+}
+
+.frontpage-eventtitles{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.ultrawide2, #block-block-12, #block-block-14, #block-block-16, #block-block-20 {
+    
+    background-color: #eee;
+    
+    height: 100% !important;
+
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    
+    color: purple;
+    font-size: 18px;
+
+    /* margin-top: -10px; */
+    
+}
+
+.ultrawide1, #block-block-11 {
+    background-color: purple;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+#block-block-13, #block-block-21{
+
+    background-color: teal;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    width: 100%;
+
+} 
+
+
+ #block-block-15 {
+    background-color: purple;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+}
+
+.col-md-4, .col-md-6{
+    padding-bottom: 25px;
+}
+
+
+#block-search-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pane-widgets-s-socialmedia-share-default{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.smallimagecaption, .largeimagecaption{
+    font-style: italic;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 14px;
+}
