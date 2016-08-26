@@ -1,0 +1,6 @@
+//create a duplicate search box
+
+<?php
+  $block = module_invoke('search', 'block_view', 'search');
+  print render($block); 
+?>
